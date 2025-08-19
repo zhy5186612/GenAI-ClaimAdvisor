@@ -1,0 +1,11 @@
+azure-identity==1.15.0
+scikit-learn==1.4.0
+langchain==0.3.12
+langchain-openai==0.2.12
+streamlit==1.38.0
+tiktoken==0.7.0
+openai==1.57.4
+pandas==2.2.2
+python-dotenv==1.0.0
+cryptography==3.4.8
+streamlit-analytics2==0.8.2

@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  caappdev:
+    build:
+      dockerfile: ./Dockerfile
+      context: ./
+    container_name: caApp_v1.0Dev
+    ports:
+      - '---:----'
+    volumes:
+      - 'path_to_your_volume'
+    env_file:
+      - yourenvfile.env
+    restart: unless-stopped
+    # env_file:
+    #  - .env
